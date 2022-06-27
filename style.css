@@ -1,3 +1,45 @@
 body{
     font-family: 'Space Mono', monospace;
+    font-weight:700;
 }
+
+.lightCyan{
+    background-color: hsl(185, 41%, 84%);
+}
+
+.customPadding{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.greyTextColor{
+    color:hsl(186, 14%, 43%)
+}
+
+.customRound{
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.customInput{
+    width: 100%;
+    border-style: none;
+    background-color: #f3f8fb;
+    font-size: 1.5rem;
+    text-align: right;
+}
+input::placeholder {
+    text-align: left;
+    color: hsl(184, 14%, 56%);
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  input:focus::placeholder{
+    color:hsl(184, 14%, 56%);
+    display: inline;
+  }  
+
+  

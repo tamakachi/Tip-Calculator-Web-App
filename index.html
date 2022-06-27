@@ -8,7 +8,7 @@
   <!-- Google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
 
   <!-- Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -26,38 +26,46 @@
 </head>
 <body>
 
-  <div>
-    <h1 class="h2 text-center">SPLI</h1>
-    <h1 class="h2 text-center">TTER</h1>
+  <div class="lightCyan">
+    <div class="customPadding">
+    <h1 class="h2 text-center greyTextColor">S P L I</h1>
+    <h1 class="h2 text-center greyTextColor">T T E R</h1>
   </div>
-  <div>
-    <p>Bill</p>
-    <input class="billAmount">
-    <p>Select Tip %</p>
-    <button class="teal">5%</button>
-    <button class="teal">10%</button>
-    <button class="teal">15%</button>
-    <button class="teal">25%</button>
-    <button class="teal">50%</button>
-    <input class="custom">Custom</input>
-    <p>Number of People</p>
-    <input>
-    <div>
+  
+  <div class="container-fluid py-4 customRound bg-light">
+    <div class="row">
+      <div class="col px-5">
+
+      <p class="greyTextColor">Bill</p>
+      <input class="billAmount customInput" placeholder="$">
+      <p class="greyTextColor">Select Tip %</p>
+      <button class="teal">5%</button>
+      <button class="teal">10%</button>
+      <button class="teal">15%</button>
+      <button class="teal">25%</button>
+      <button class="teal">50%</button>
+      <input class="custom">Custom</input>
+      <p class="greyTextColor">Number of People</p>
+      <input>
       <div>
-        <p>Tip Amount</p>
-        <p>$0.00</p>
-        <p>/ person</p>
+        <div>
+          <p>Tip Amount</p>
+          <p>$0.00</p>
+          <p>/ person</p>
+        </div>
+        <div>
+          <p>Total</p>
+          <p>$0.00</p>
+          <p>/ person</p>
+        </div>
+        <div>
+        <button>RESET</button>
       </div>
-      <div>
-        <p>Total</p>
-        <p>$0.00</p>
-        <p>/ person</p>
       </div>
-      <div>
-      <button>RESET</button>
-    </div>
     </div>
   </div>
+  </div>
+</div>
 
   
   <div class="attribution">
